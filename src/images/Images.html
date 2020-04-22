@@ -4,13 +4,17 @@
 <head>
     <title>Hello!</title>
     <style>
+        html {
+            background: url(https://trentonedwards.netlify.app/src/images/Background_1.png) 150%;
+            background-size: cover; /* auto */
+            background-position: center; /* Try and fix splizing with centering the image to the page*/
+            background-repeat: space; /* Added to try and stop background splicing into 4 sections */
+            position: relative;   
+        }
         body {
             padding-top: 80px;
             text-align: center;
             font-family: monaco, monospace;
-            background: url(https://trentonedwards.netlify.app/src/images/Background_1.png) 150%;
-            background-size: auto; /* origin: cover */
-            background-repeat: space; /* Added to try and stop background splicing into 4 sections */
         }
         
         h1,
