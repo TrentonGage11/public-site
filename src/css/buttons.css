@@ -1,0 +1,28 @@
+			html {
+				color: #99ffa0;
+				background-color: #222222;
+				font-family: 'Jura', sans-serif;
+			}
+			b2 {
+				font-weight: bolder;
+				font-size-adjust: 0.70;
+			}
+			.main {
+				text-align: center;
+				font-size: 42px;
+			}
+			.but {
+				/*
+				width: 75px;
+				height: 25px;
+				color: #acaf50;
+				*/
+				border: none;
+				display: inline-block;
+				text-align: center;
+				padding: 15px 25px;
+				color: #222222;
+				background-color: #ffa033;
+				border-radius: 8px;
+				font-family: 'Turret Road', cursive;
+			}
