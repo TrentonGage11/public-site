@@ -12,8 +12,8 @@ html {
 }
 body {
 	background-image: linear-gradient(to bottom right, #000000, #333333 80%);
-	width : 480px;	
-	height: 854px;
+	width : auto;
+	height: auto;
 	padding: 0.12%;
 	border: 3px solid #deaa44;
 }
