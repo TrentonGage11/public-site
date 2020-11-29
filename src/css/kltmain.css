@@ -1,5 +1,5 @@
 html {
-	background-image: linear-gradient(to bottom right, #333333, #000000 80%);
+	background-image: linear-gradient(to bottom right, #666666, #000000 80%);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	-ms-overflow-style: none;
@@ -15,7 +15,7 @@ html {
 	*/
 }
 body {
-	background-image: linear-gradient(to bottom right, #000000, #333333 80%);
+	background-image: linear-gradient(to bottom right, #000000 20%, #666666 80%);
 	width : auto;
 	height: 97vh;
 	padding: 0.12%;
