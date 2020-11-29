@@ -9,16 +9,26 @@
 	<link rel="stylesheet" href="./../src/css/kltbuttons.css">
 	<script src="./../src/js/kltmain.js"></script>
 </head>
-<body>
+<body onload="javascript:owl()">
 	<div class="cent">
+		<button id="top" class="plbut" onClick="javascript:opl('bottom')">↓</button>
+		<!--
 		<div class="cent spotify">
 			<p class="cent">My 2 Spotify Accounts</p>
 			<iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:trentongage11&size=detail&theme=dark" class="mbut" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
 			<iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:trentongageeleven&size=detail&theme=light" class="mbut" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
 		</div>
 		<button class="mbut" onClick="js:ol('unavailable')" style="color: #ff2222;">Some Items may be unavailable.</button>
-		<button class="mbut a" onClick="js:ol('https://linktr.ee/TrentonGage11')" style="color: #00D775;">LinkTree</button>
 		<button class="mbut b" onClick="js:ol('https://example.com')" disabled>Test</button>
+		-->
+		<p class="mbut" style="text-align:center;">My Knockoff Linktree to test my html/css skillz</p>
+		<iframe class="linkembeds" src="https://canary.discord.com/widget?id=694615680183435294&theme=dark" height="240px" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+		<div>
+			<img id="emb" src="https://blog-api.linktr.ee/app/uploads/2019/04/lsp_linktree_100419-113346.png" />
+			<button class="mbut a" onClick="js:ol('https://linktr.ee/TrentonGage11')" style="color: #00D775;">LinkTree</button>
+		</div>
+		<iframe class="linkembeds" id="ytplayer" type="text/html" width="720" height="480" src="https://www.youtube.com/embed/fP4xZQI7aDw" frameborder="0" allowfullscreen></iframe>
+		<button id="bottom" class="plbut" onClick="javascript:opl('top')">↑</button>
 	</div>
 </body>
 </html>

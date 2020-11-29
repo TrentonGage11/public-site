@@ -2,9 +2,11 @@ html {
 	background-image: linear-gradient(to bottom right, #333333, #000000 80%);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	overflow: hidden;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 	color: #bbbbbb;
 	font-family: 'Abel', sans-serif;
+	overflow: hidden;
 	/*
 	font-family: 'M PLUS 1p', sans-serif;
 	font-family: 'Varela Round', sans-serif;
@@ -16,9 +18,24 @@ body {
 	height: 97vh;
 	padding: 0.12%;
 	border: 3px solid #deaa44;
+	overflow-y: auto;
 }
 .cent {
 	margin: auto;
 	padding: 4%;
 	width: 80%;
+}
+::-webkit-scrollbar {
+	position: absolute;
+	width : 3px;
+	height: 3px;
+}
+::-webkit-scrollbar-track {
+	background: #666666; 
+}
+::-webkit-scrollbar-thumb {
+	background: #252525; 
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #111111; 
 }
