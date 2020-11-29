@@ -63,7 +63,7 @@
 }
 .mbut.d:hover {
 	background-image: linear-gradient(to bottom right, #27F5EE 20%, #FF004F 80%);
-	color: #444444;
+	color: #eeeeee;
 	border: 3px solid #444444;
 	opacity: 0.9;
 }
