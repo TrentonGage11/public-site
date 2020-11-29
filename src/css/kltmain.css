@@ -6,7 +6,7 @@ html {
 	scrollbar-width: none;
 	color: #bbbbbb;
 	font-family: 'Abel', sans-serif;
-	overflow: hidden;
+	overflow: auto;
 	width : 963px;
 	height: 956px;
 	/*
