@@ -11,7 +11,9 @@
 </head>
 <body onload="javascript:owl()">
 	<div class="cent">
-		<button id="top" class="plbut" onClick="javascript:opl('bottom')">↓</button>
+		<div id="top"></div>
+		<button class="plbut bottom" onClick="javascript:opl('bottom')">↓</button>
+		<button class="plbut top" onClick="javascript:opl('top')">↑</button>
 		<!--
 		<div class="cent spotify">
 			<p class="cent">My 2 Spotify Accounts</p>
@@ -21,14 +23,14 @@
 		<button class="mbut" onClick="js:ol('unavailable')" style="color: #ff2222;">Some Items may be unavailable.</button>
 		<button class="mbut b" onClick="js:ol('https://example.com')" disabled>Test</button>
 		-->
-		<p class="mbut" style="text-align:center;">My Knockoff Linktree to test my html/css skillz</p>
-		<iframe class="linkembeds" src="https://canary.discord.com/widget?id=694615680183435294&theme=dark" height="240px" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-		<div>
+		<button class="mbut" style="text-align: center;">My Knockoff Linktree to test my html/css skillz</button>
+		<div id="lock">
 			<img id="emb" src="https://blog-api.linktr.ee/app/uploads/2019/04/lsp_linktree_100419-113346.png" />
-			<button class="mbut a" onClick="js:ol('https://linktr.ee/TrentonGage11')" style="color: #00D775;">LinkTree</button>
+			<button class="mbut a" onClick="js:ol('https://linktr.ee/TrentonGage11')" style="color: #00D775;" disabled>LinkTree</button>
 		</div>
+		<iframe class="linkembeds" src="https://canary.discord.com/widget?id=694615680183435294&theme=dark" height="240px" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 		<iframe class="linkembeds" id="ytplayer" type="text/html" width="720" height="480" src="https://www.youtube.com/embed/fP4xZQI7aDw" frameborder="0" allowfullscreen></iframe>
-		<button id="bottom" class="plbut" onClick="javascript:opl('top')">↑</button>
+		<div id="bottom"></div>
 	</div>
 </body>
 </html>
